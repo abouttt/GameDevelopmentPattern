@@ -313,8 +313,8 @@ GameObject:
   - component: {fileID: 1825503200}
   - component: {fileID: 1825503199}
   - component: {fileID: 1825503198}
-  - component: {fileID: 1825503197}
-  - component: {fileID: 1825503196}
+  - component: {fileID: 1825503203}
+  - component: {fileID: 1825503202}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -322,32 +322,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1825503196
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1825503195}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4af4b01e335152745848839113f28cf1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1825503197
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1825503195}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc5b306f9b6d2a04fbaa1129faafb35c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MaxSpeed: 2
-  TurnDistance: 2
 --- !u!65 &1825503198
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -426,3 +400,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1825503202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1825503195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 041dcb20486f39942a4741993cf751f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1825503203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1825503195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88f67676ceb01e6478c51cc7ba14b5a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
